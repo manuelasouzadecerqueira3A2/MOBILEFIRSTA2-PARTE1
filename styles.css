@@ -6,13 +6,17 @@
 @import url("styles/rodapé.css");
 
 :root {
-    --cor-de-fundo: #c951ab; 
-    --rosa: #ed9df5; 
-    --vermelho: #eb3636; 
-    --verde-degrade: linear-gradient(97.54deg, #4D8C2A 35.49%, #A4D65E 165.37%); 
+    --cor-de-fundo: #F9EBD0; 
+    --cinza-escuro: #7D7F7D; 
+    --rosa: #D5006D; 
+    --amarelo-degrade: linear-gradient(97.54deg, #F9C74F 35.49%, #F9D76B 165.37%); 
     --fonte-principal: "Poppins";
-    --roxo: #6A2C91; 
-}
+    --verde-escuro: #3B8A4B; 
+
+   
+    --cor-fundo-banner: #FFEDD5; 
+    --cor-letra: #4B2C20; 
+    --cor-fundo-botao: #FFD700;
 
 body {
     background-color: var(--cor-de-fundo);
@@ -21,3 +25,14 @@ body {
     font-weight: 400;
 }
 
+
+.banner {
+    background-color: var(--cor-fundo-banner);
+    color: var(--cor-letra);
+}
+
+
+.botao {
+    background-color: var(--cor-fundo-botao);
+    color: var(--cinza-escuro); 
+}
