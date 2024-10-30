@@ -7,15 +7,15 @@
 
 :root {
     --cor-de-fundo: #F9EBD0; 
-    --branco: #7D7F7D; 
+    --branco: #f58ad1; 
     --laranja: #D5006D; 
-    --azul-degrade: linear-gradient(97.54deg, #F9C74F 35.49%, #7ef96b 165.37%); 
+    --azul-degrade: linear-gradient(97.54deg, #F9C74F 35.49%, #ff9900 165.37%); 
     --fonte-principal: "Poppins";
-    --azul: #3B8A4B; 
+    --azul: #a52084; 
     --fonte-secundario: "Josefin Sans";
     --preto: #ef06f7; 
-    --cinza: #394029;
-    --cinza-claro: #a34e2c;
+    --cinza: #bd4abd;
+    --cinza-claro: #f0abe1;
 }
 
 
